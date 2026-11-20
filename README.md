@@ -68,3 +68,9 @@ number and call `run()`. Redeploy the check after every change. `Check5BuyCredit
 | `setKitchen` from the second account | `NotOwner`, from Owned |
 | `buyCredits(3)` with 0.002 ether | `WrongPayment` |
 | `allow(canteen, 10)`, then buy two meals | the second one reverts |
+
+---
+
+Part of [ack3 education](https://github.com/ack3-education): hands-on material for
+[NIE-BLO](https://courses.fit.cvut.cz/NIE-BLO/) at FIT ČVUT, published by [ack3](https://ack3.ai).
+Contracts compile and deploy with [Wake](https://github.com/ack3-ai/wake) for VS Code.
